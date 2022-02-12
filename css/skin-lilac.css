@@ -49,3 +49,8 @@ color: #76719a !Important;
 border-top:#76719a 3px solid;
 }
 ::selection {background:#76719a;color:#fff;}
+
+svg #upare-u, #upare-p2, #upare-r, #upare-e{
+	
+	fill: #76719a;
+}

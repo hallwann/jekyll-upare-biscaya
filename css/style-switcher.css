@@ -11,7 +11,7 @@
 }
 #switcher-handle a#handle
 {
-	
+	z-index:1100!important;
 	 
 	width: 40px;
 	height:165px;
@@ -20,7 +20,7 @@
 	top:8%;
 	text-indent: 60px;
 	overflow: hidden;
-	background: url("../img/themestyles.png") 0 0 no-repeat;
+	background: url(../img/themestyles.png) 0 0 no-repeat;
 	 
 }
 .block{
@@ -52,7 +52,7 @@ display:block;width:200px;float:left;margin:5px 0;
 
 #switcher-handle a#handle.out
 {
-	background: url("../img/themestyles.png") 0 0 no-repeat;
+	background: url(../img/themestyles.png) 0 0 no-repeat;
 }
 .switcher-divider{float:left;width: 100%;border-top: 1px solid #ebebeb;margin: 20px 0 10px 0;position: relative;}
 #style-switcher strong{display: block;font-size:13px;}
@@ -130,14 +130,14 @@ display:block;width:200px;float:left;margin:5px 0;
 	margin-left:25px;
 	width: 80px;
 	height: 24px;
-	background: url("../img/colorpicker/select2.png");
+	background: url(../img/colorpicker/select2.png);
 	float:left;
 }
 #colorpicker div {
 	margin-left:25px;
 	width: 80px;
 	height: 24px;
-	background: url("../img/colorpicker/select2.png") center;
+	background: url(../img/colorpicker/select2.png) center;
 	float:left;
 }
 
@@ -205,3 +205,4 @@ display:block;width:200px;float:left;margin:5px 0;
 	background-position: center center ;
 	background-repeat: no-repeat;
 }
+

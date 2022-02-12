@@ -2855,10 +2855,7 @@ padding:25px 25px 25px 25px;
 #refresh {
 cursor:pointer;
 }
-#captcha {
-height:25px;
-margin-top:5px;
-}
+
 #after_submit {
 margin-top:20px;
 }
@@ -3424,3 +3421,23 @@ overflow: -moz-scrollbars-vertical;
 overflow-y: scroll;
 }
 
+/*=============================================== *  LOGO  * ===============================================*/
+svg #upare-p1, #upare-a, #upare-hat{
+	
+	fill: #333;
+}
+
+svg #upare-hat, #upare-p1, #upare-a{
+  -webkit-animation: float 1s infinite ease-in-out alternate;
+          animation: float 1s infinite ease-in-out alternate;
+}
+svg #upare-hat {
+  -webkit-animation-delay: .2s;
+          animation-delay: .2s; 
+}
+
+@keyframes float {
+	100% {
+    transform: translateY(20px);
+  }
+}

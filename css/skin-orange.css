@@ -49,3 +49,9 @@ color: #F86D18 !Important;
 border-top:#F86D18 3px solid;
 }
 ::selection {background:#F86D18;color:#fff;}
+
+
+svg #upare-u, #upare-p2, #upare-r, #upare-e{
+	
+	fill: #F86D18;
+}
