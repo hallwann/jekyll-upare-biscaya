@@ -1,10 +1,10 @@
 # A color changed template
 
-![](demo.png)
+![](https://raw.githubusercontent.com/hallwann/jekyll-upare-biscaya/gh-pages/demo.png)
 
 [Instructions]
 
-This template comes from the H5 static template biscaya, which can build a business website on GitHub.
+This template comes from the H5 static template  [biscaya](https://github.com/hallwann/biscaya_html) , which can build a business website on GitHub.
 
 Your posts can be on post & project presentations.
 
