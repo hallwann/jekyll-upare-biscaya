@@ -1,0 +1,76 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: UPARE
+email: service@upare.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://127.0.0.1:4000" # the base hostname & protocol for your site, e.g. http://example.com
+asset: "" # the css and images uri
+media: "http://127.0.0.1:4000" # meida uri e.g. http://images.upare.com
+lang: en
+tel: "+852 6366 4860"
+slogan: "UPGRADE PASSION AND RESPONSIBILITY ENDLESSLY"
+facebook: "upare"
+weibo: "upare"
+twitter: "upare"
+tumblr: "upare"
+github: "hallwann"
+logo: "<img src='/img/logo.png'>"
+paginate: 1
+paginate_path: /page/:num/
+menu:
+  - name: Home
+    url: /index
+  - name: Blogs
+    url: /blog
+    sub:
+      - name: technique
+        url: /blog/technique
+      - name: news
+        url: /blog/news
+  - name: Projects
+    url: /project
+  - name: About Us
+    url: /about
+
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

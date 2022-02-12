@@ -1,0 +1,281 @@
+{%- include header.html -%}
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+			<div class="camera_wrap pattern_4 camera_emboss" id="camera_wrap_4">
+			
+				{% for post in site.categories.ad limit:4 %}
+				{% assign local_asset = post.thumbnail[0] | slice: 0, 4 %}
+				<div data-src="{% if post.thumbnail[0] and local_asset == 'http' %}{{ post.thumbnail[0] }}{% elsif post.thumbnail[0] and local_asset != 'http' %}{{ site.media }}/{{ post.thumbnail[0] }}{% else %}{{ site.asset }}/img/demo/300x200.png{% endif %}">
+					<div class="camera_caption fadeFromTop">
+						<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+						<span>
+						{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt }}{% endif %}
+						</span>
+					</div>
+				</div>
+				{% endfor %}
+				
+			</div>
+			
+				<div class="text-center">
+					<img src="{{ site.asset }}/img/sha.png" class="slidershadowcam" alt="">
+				</div>
+			</div>
+
+		</div>
+		<div class="row text-center intro">
+			<div class="col-md-12">
+				<h1><span class="primarycolor">UPARE </span>is simple, but more meaningful.</h1>
+				<p class="featured lead bottom10">
+					Plain website is full of endless passion and responsibility.<br/>
+					You give me the work, I give you peace of mind.<br/>
+					We are all from world famous schools, with more than 1000 members. We all have professional skills and will satisfy your needs.
+				</p>
+			</div>
+		</div>
+	
+		<div class="row graysection">
+			<div class="col-md-3">
+				<div class="grey-box-icon">
+					<div class="icon-box-top grey-box-icon-pos">
+						<i class="fontawesome-icon medium circle-white center icon-cogs"></i>
+					</div>
+					<!--icon box top -->
+					<h4>Personalized</h4>
+					<p>
+						We have insight into the subjective feelings of users in the process of every project.
+					</p>
+				</div>
+				<!--grey box -->
+			</div>
+			<!--/span3-->
+			<div class="col-md-3">
+				<div class="grey-box-icon">
+				<div class="icon-box-top grey-box-icon-pos">
+						<i class="fontawesome-icon medium circle-white center icon-pencil"></i>
+					</div>
+					<!--icon box top -->
+					<h4>Thought</h4>
+					<p>
+						Thinking determines behavior and behavior determines result, we think about everything with divergent thinking.
+					</p>
+					
+				</div>
+				<!--grey box -->
+			</div>
+			<!--/span3-->
+			<div class="col-md-3">
+				<div class="grey-box-icon active">
+					<div class="icon-box-top grey-box-icon-pos">
+						<i class="fontawesome-icon medium circle-white center icon-magic"></i>
+					</div>
+					<!--icon box top -->
+					<h4>IUR</h4>
+					<p>
+						We are not a big company, but a big team. We are firmly on the road of industry university research.
+					</p>
+					
+				</div>
+				<!--grey box -->
+			</div>
+			<!--/span3-->
+			<div class="col-md-3">
+				<div class="grey-box-icon">
+					<div class="icon-box-top grey-box-icon-pos">
+						<i class="fontawesome-icon medium circle-white center icon-trophy"></i>
+					</div>
+					<!--icon box top -->
+					<h4>Praise</h4>
+					<p>Since 2006, our team has provided services to many small and medium-sized enterprises and individual users. In their eyes, we are very reliable.</p>
+				</div>
+				<!--grey box -->
+			</div>
+			<!--/span3-->
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="titleborder">
+					<div>
+						 Recent Projects
+					</div>
+				</div>
+				<div class="heightauto">
+					<div class="list_carousel">
+						<div class="carousel_nav">
+							<a class="prev" id="car_prev" href="#"><span>prev</span></a>
+							<a class="next" id="car_next" href="#"><span>next</span></a>
+						</div>
+						<div class="clearfix">
+						</div>
+						<ul id="recent-projects">
+							{% for post in site.categories.project limit:10 %}
+							{% assign local_asset = post.thumbnail[0] | slice: 0, 4 %}
+							<li>
+							<p>
+								<img src="{% if post.thumbnail[0] and local_asset == 'http' %}{{ post.thumbnail[0] }}{% elsif post.thumbnail[0] and local_asset != 'http' %}{{ site.media }}/{{ post.thumbnail[0] }}{% else %}{{ site.asset }}/img/demo/300x200.png{% endif %}" class="imgproject" alt="">
+								{% if post.description %}{{ post.description  | truncatewords: 30 }}{% else %}{{ post.excerpt  | truncatewords: 30 }}{% endif %}</a>
+							</p>
+							<p>
+								<a href="{{ post.url }}" class="btn btn-primary"><i class="icon-share-alt"></i> Get it now</a>
+							</p>
+							</li>
+							{% endfor %}
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="titleborder">
+					<div>
+						Special upare
+					</div>
+				</div>
+				<div class="accordion">
+					<h3><span>Low key person, high key work.</span></h3>
+					<div class="accord_cont">
+						<p>Upare is not a top team in this field, nor is it synonymous with this field. We are just a gathering place for young technology practitioners. People here have a dream, that is to be recognized, we always believe that sincerity can overcome all obstacles.</p>
+					</div>
+					<h3><span>Standing on the shoulders of giants</span></h3>
+					<div class="accord_cont">
+						<p>Project implementers will not guarantee you to master the latest cutting-edge technology, but we have a strong team of experts behind us, which can guide the implementers to complete professional learning quickly. Experts are all from internationally renowned universities.</p>
+					</div>
+					<h3><span>Unified goal</span></h3>
+					<div class="accord_cont">
+						<p>Both Party B and Party A, all our members integrate into the position of customers and guide the project with the most real needs.</p>
+					</div>
+					<h3><span>It is business and making friends</span></h3></span></h3>
+					<div class="accord_cont">
+						<p>Customers are intangible assets, wealth and power to upare. First make friends, then do business, charm to win the hearts of people, pay attention to emotional investment is our code of conduct.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row graysection text-center">
+			<p class="lead bottom0">
+			<i class="icon-envelope"></i> To learn more, please email to <a href="mailto:service@upare.com">service@upare.com</a>
+			</p>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="titleborder">
+					<div>
+						 Latest News
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row recent-posts">
+			{% for post in site.categories.blog limit:10 %}
+			{% assign local_asset = post.thumbnail[0] | slice: 0, 4 %}
+			<div class="col-md-3">
+				<article>
+				<img src="{% if post.thumbnail[0] and local_asset == 'http' %}{{ post.thumbnail[0] }}{% elsif post.thumbnail[0] and local_asset != 'http' %}{{ site.media }}/{{ post.thumbnail[0] }}{% else %}{{ site.asset }}/img/demo/300x200.png{% endif %}" alt="" class="imgOpa">
+				<div class="date">
+					<span class="day">{{ post.date | date: "%d" }}</span>
+					<span class="month">{{ post.date | date: "%b" }}</span>
+				</div>
+				<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+				<p>
+					{% if post.description %}{{ post.description  | truncatewords: 15 }}{% else %}{{ post.excerpt  | truncatewords: 15 }}{% endif %} <a href="{{ post.url }}" class="read-more">read more <i class="icon-angle-right"></i></a>
+				</p>
+				</article>
+			</div>
+			{% endfor %}
+		</div>
+		<div class="row top25">
+			<div class="panel1">
+				<div class="col-md-9">
+					<h4 class="top0">This is a jekyll website</h4>
+					 We are proud to open source this system. Jekyll version is 4.2.0, the template is developed by upare & Biscaya. We hope you can keep the copyright.
+				</div>
+				<div class="col-md-3 text-center top15">
+					<a href="https://github.com/hallwann/jekyll-upare-biscaya" class="btn btn-primary btn-large">
+					<i class="icon icon-download-alt"></i> Download Now </a>
+				</div>
+				<div class="clearfix">
+				</div>
+			</div>
+		</div>
+	</div>
+{%- include footer.html -%}
+{%- include panel.html -%}
+
+
+
+
+
+<!-- CALL CAMERA SLIDER -->
+<script>
+	jQuery(function(){
+		jQuery('#camera_wrap_4').camera({
+			height: 'auto',
+			loader: 'bar',
+			pagination: false,
+			thumbnails: false,
+			hover: true,
+			opacityOnGrid: false,
+			imagePath: '{{ site.asset }}/img/'
+		});
+	});
+</script>
+<!-- CALL FEATURED WORK -->
+<script type="text/javascript">
+$(window).load(function(){			
+			$('#recent-projects').carouFredSel({
+				responsive: true,
+				width: '100%',
+				auto: true,
+				circular	: true,
+				infinite	: false,
+				prev : {
+					button		: "#car_prev",
+					key			: "left",
+						},
+				next : {
+					button		: "#car_next",
+					key			: "right",
+							},
+				swipe: {
+					onMouse: true,
+					onTouch: true
+					},
+				scroll : 1500,
+				items: {
+					visible: {
+						min: 1,
+						max: 1
+					}
+				}
+			});
+		});	
+</script>
+<!-- CALL ACCORDION -->
+<script type="text/javascript">
+	$(".accordion h3").eq(0).addClass("active");
+	$(".accordion .accord_cont").eq(0).show();
+	$(".accordion h3").click(function(){
+		$(this).next(".accord_cont").slideToggle("slow")
+		.siblings(".accord_cont:visible").slideUp("slow");
+		$(this).toggleClass("active");
+		$(this).siblings("h3").removeClass("active");
+	});	
+</script>
+<!-- Call opacity on hover images from recent news-->
+<script type="text/javascript">
+$(document).ready(function(){
+    $("img.imgOpa").hover(function() {
+      $(this).stop().animate({opacity: "0.6"}, 'slow');
+    },
+    function() {
+      $(this).stop().animate({opacity: "1.0"}, 'slow');
+    });
+  });
+</script>
+
+
+</body>
+</html>

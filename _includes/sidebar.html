@@ -1,0 +1,62 @@
+			<!--/span-->
+			<div class="col-md-4 top20">
+				<ul id="myTab" class="nav nav-tabs">
+					<li class="active"><a href="#recommend" data-toggle="tab">Recommend</a></li>
+					<li class=""><a href="#tags" data-toggle="tab">Tags</a></li>
+				</ul>
+				<div id="myTabContent" class="tab-content multi-sidebar">
+					<div class="tab-pane fade active in" id="recommend">
+						<ul class="sidebar-latest">
+						{% if site.tags[page.tag.first] %}
+							{% assign arr = site.tags[page.tag.first] %}
+						{% else %}
+							{% assign arr = site.categories[cat] %}
+						{% endif %}
+						
+							{% for post in arr limit:10 %}
+							<li class="clearfix">
+							<a href="#"><img src="{% if post.thumbnail[0] %}{{ post.thumbnail[0] }}{% else %}{{ site.baseurl }}/img/demo/300x200.png{% endif %}" class="attachment-thumbnail" alt=""></a>
+							<a href="{{ post.url }}">{{ post.title }}</a><br>
+							<small><a href="#"><span class="entry-date">{{ post.date }}</span></a></small>
+							</li>
+							{% endfor %}
+						</ul>
+					</div>
+					
+					<div class="tab-pane fade" id="tags">
+						<div class="tagcloud">
+						{% assign tags = "" | split: "," %}
+						{% if site.categories[page.category.first] %}
+							{% assign tagarr = site.categories[page.category.first] %}
+						{% else %}
+							{% assign tagarr = site.categories[cat] %}
+						{% endif %}
+						{% for category in tagarr %}
+							{% for taginpost in category.tags %}
+								{% assign tags = tags | push: taginpost %}
+							{% endfor %}
+						{% endfor %}
+
+						{% assign tags = tags | uniq %}
+						{% for tag in tags %}
+						<a href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag }}</a>
+						{% endfor %}
+						</div>
+					</div>
+				</div>
+				<!-- END Tabs -->
+				<div class="sidebarBox widget-container widget_text">
+					<h4 class="widget-title">Another Widget</h4>
+					<div class="textwidget">
+						 Aenean enim urna, luctus vel sollicitudin eu, lobortis et sapien. Duis justo purus, scelerisque sed iaculis vitae, dignissim a est. Pellentesque congu. Nulla dictum auctor dui, a sagittis arcu mattis eu.
+					</div>
+				</div>
+				<div class="sidebarBox widget-container widget_text">
+					<h4 class="widget-title">Apple's Suppliers</h4>
+					<div class="textwidget">
+						<iframe height="250" style="width:99.3%;" allowfullscreen="" src="https://www.youtube.com/embed/6NbAAmDuv_8?feature=player_detailpage">
+						</iframe>
+					</div>
+				</div>
+			</div>
+			<!--/span-->

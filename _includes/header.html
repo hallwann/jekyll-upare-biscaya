@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<head>
+<meta charset="utf-8">
+<title>{% if page.title %}{{ page.title }} - {% endif%}{{ site.title }}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- Le styles -->
+<link href="{{ site.asset }}/css/bootstrap.css" rel="stylesheet">
+<link href="{{ site.asset }}/css/style.css" rel="stylesheet">
+<link href="{{ site.asset }}/css/camera.css" rel="stylesheet">
+<link href="{{ site.asset }}/css/icons.css" rel="stylesheet">
+<link id="main-color" href="{{ site.asset }}/css/skin-orange.css" rel="stylesheet">
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="{{ site.asset }}/js/html5shiv.js"></script>
+    <![endif]-->
+<!-- Fav and touch icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.asset }}/img/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.asset }}/img/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.asset }}/img/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="{{ site.asset }}/img/ico/apple-touch-icon-57-precomposed.png">
+<link rel="shortcut icon" href="{{ site.asset }}/img/ico/favicon.png">
+</head>
+<body class="boxed">
+<div class="body">
+	<!-- Navigation -->
+	<header>
+	<div class="container clearfix">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="brandlogo"><a href="{{ site.url }}">{{ site.logo }}</a></h1>
+				<div class="topinfo">
+					<ul class="social-icons list-soc">
+						<li><a href="https://facebook.com/{{ site.facebook }}"><i class="icon-facebook"></i></a></li>
+						<li><a href="https://twitter.com/{{ site.twitter }}"><i class="icon-twitter"></i></a></li>
+						<li><a href="https://weibo.com/{{ site.weibo }}"><i class="icon-weibo"></i></a></li>
+						<li><a href="https://{{ site.tumblr }}.tumblr.com"><i class="icon-tumblr"></i></a></li>
+						<li><a href="https://github.com/{{ site.github }}"><i class="icon-github"></i></a></li>
+					</ul>
+					<div class="infophone">
+						<i class="icon-phone"></i> Tel: {{ site.tel }}
+					</div>
+					<div class="infoaddress">
+						{{ site.slogan }}
+					</div>
+				</div>
+				<div class="clearfix">
+				</div>
+				<div class="row-nav navbar">
+					<div class="navbar-inner">
+						<ul id="nav" class="nav">
+							{% assign uri =  page.url | replace: ".html", "" | split: "/" | slice: 1 %}
+							
+							{% for menu in site.menu %}
+							{% assign murl =  menu.url | split: "/" | slice: 1 %}
+								<li class="{% if menu.sub %}dropdown{% endif %} {% if murl.first == uri.first or (menu.url == '/index' and page.url == '/') %}active selected{% endif %}"><a href="{{ menu.url }}"{% if menu.sub %} class="dropdown-toggle" data-toggle="dropdown"{% endif %}>{{ menu.name }}{% if menu.sub %}<b class="caret"></b>{% endif %}</a>
+							
+								{% if menu.sub %}
+								<ul class="dropdown-menu js-activated" style="display: none;">
+									{% for menu in menu.sub %}
+									<li><a href="{{ menu.url }}">{{ menu.name }}</a></li>
+									{% endfor %}
+								</ul>
+								{% endif %}
+								</li>
+								<li class="divider-vertical"></li>
+								
+							{% endfor %}
+						</ul>
+						<form id="search" action="#" method="GET">							
+								<input type="text" onfocus="if(this.value =='Search here...' ) this.value=''" onblur="if(this.value=='') this.value='Search here...'" value="Search here..." name="s">
+								<a href="#"></a>							
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</header>
+	<div class="text-center">
+		<img src="{{ site.asset }}/img/sha.png" class="slidershadow" alt="">
+	</div>
+	
+	<!-- /end header -->

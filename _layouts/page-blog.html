@@ -1,0 +1,64 @@
+{%- include header.html -%}
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 span-fixed-sidebar">
+				{% assign cat1 = page.url | replace: ".html", "" %}
+				{% assign catT = cat1 | split: "/"  %}
+				{% if catT[2] != nil %}
+					{% assign cat =  catT[2] %}
+				{% else %}
+					{% assign cat =  catT[1] %}
+					
+					{% assign recommend =   site.categories.blog | where_exp: "item","item.recommend"  %}
+					
+					{% for post in recommend limit:1 %}
+					
+					
+					<div class="hero-unit">
+						<h1>{{ post.title }}</h1>
+						{% assign local_asset = post.thumbnail[0] | slice: 0, 4 %}
+						<p>
+							<img src="{% if post.thumbnail[0] and local_asset == 'http' %}{{ post.thumbnail[0] }}{% elsif post.thumbnail[0] and local_asset != 'http' %}{{ site.media }}/{{ post.thumbnail[0] }}{% else %}{{ site.asset }}/img/demo/300x200.png{% endif %}" class="pull-left paddingright" alt="" style="margin-top:10px; width:600px;"> {% if post.description %}{{ post.description }}{% else %}{{ post.excerpt }}{% endif %}
+						</p>
+						<p>
+							<a href="{{ post.title }}" class="btn btn-primary btn-large">Read more »</a>
+						</p>
+					</div>
+					
+					{% endfor %}
+					
+				{% endif %}
+				<div class="row">
+					
+					{% for post in site.categories[cat] %}
+					{% assign local_asset = post.thumbnail[0] | slice: 0, 4 %}
+					<div class="col-md-6">
+						<div class="boxblog">
+							<h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
+							<p class="small datepost">
+								 Posted on {{ post.title }} <span class="floatright" title="3 responses"><a href="#"><img src="{{ site.asset }}/img/comments.png" alt=""></a></span>
+							</p>
+							<div class="innerblogboxtwo">
+								<p>
+									<img width="150" height="150" src="{% if post.thumbnail[0] and local_asset == 'http' %}{{ post.thumbnail[0] }}{% elsif post.thumbnail[0] and local_asset != 'http' %}{{ site.media }}/{{ post.thumbnail[0] }}{% else %}{{ site.asset }}/img/demo/300x200.png{% endif %}" class="attachment-thumbnail">
+									{% if post.description %}{{ post.description  | truncatewords: 30 }}{% else %}{{ post.excerpt  | truncatewords: 30 }}{% endif %}
+								</p>
+							</div>
+							<p class="continueread readmorebox">
+								<a href="{{ post.url }}">Continue reading</a>
+							</p>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+				<!--/row-->
+			</div>
+			{%- include sidebar.html -%}
+		</div>
+		<!--/row-->
+	</div>
+	<!--/.container-->
+{%- include footer.html -%}
+{%- include panel.html -%}
+</body>
+</html>

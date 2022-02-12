@@ -1,0 +1,94 @@
+{%- include header.html -%}
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 span-fixed-sidebar">
+				<div class="row">
+					<div class="col-md-12">
+						<header class="entry-header">
+						<div class="sectiontitlepost">
+							<h1>{{ page.title }}</h1>
+						</div>
+						<div class="entry-meta">
+							<a href="#"><span class="entry-date">{{ page.date }}</span></a>
+							<span class="pull-right"><a href="#"><span>3</span> Comments</a></span>
+						</div>
+						<!-- .entry-meta -->
+						</header>
+						<div class="innerblogboxtwo">
+							<div class="entry-content">
+								{{ content }}
+							</div>
+							<footer class="entry-meta">
+							
+							Posted in {% for category in page.category %}<a href="{{ site.baseurl }}/category/{{ category }}">{{ category }}</a> {% endfor %}
+							 and tagged {% for tag in page.tag %}<a href="{{ site.baseurl }}/tag/{{ tag }}" rel="tag">{{ tag }}</a> {% endfor %} by {% for author in page.author %}<a href="{{ site.baseurl }}/author/{{ author }}">{{ author }}</a> {% endfor %}. 
+							
+							</footer>
+						</div>
+						<div id="comments">
+							<div class="blogbox comments-area">
+								<h3 class="commentstitle">
+								<i class="icon-comments muted"></i> One Comment </h3>
+								<div class="comment-list left0">
+									<ul class="media">
+										<li class="comment">
+										<article class="comment">
+										<footer>
+										<span class="comment-author vcard">
+										<span class="pull-left"><img alt="" src="https://1.gravatar.com/avatar/3d988ca07c9fc4afb310dc8fbd015f9d?s=54&amp;d=https%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D54&amp;r=G" class="avatar avatar-54 photo" height="54" width="54"></span>
+										<cite class="fn">George</cite> <span class="says">on</span></span>
+										<!-- .comment-author .vcard -->
+										<span class="comment-meta commentmetadata">
+										<a href="#">
+										April 12, 2016 at 8:36 pm
+										</a>
+										</span>
+										<!-- .comment-meta .commentmetadata -->
+										</footer>
+										<div class="comment-content">
+											<p>
+												This is just a random comment. The former practice in many elementary schools of beginning the detailed study of American history without any previous knowledge of general history limited the pupil’s range of vision, restricted his sympathies, and left him without material for comparisons.
+											</p>
+										</div>
+										<div class="reply">
+											<a class="comment-reply-link" href="#">Reply</a>
+										</div>
+										<!-- .reply -->
+										</article>
+										<!-- #comment-## -->
+										</li>
+									</ul>
+								</div>
+								<!-- .commentlist -->
+							</div>
+						</div>
+						<div id="respond">
+							<h3 id="reply-title"><i class="icon-edit muted"></i> ADD YOUR COMMENT </h3>
+							<form method="post" action="#" id="#">
+								<div class="form">
+									<div class="controls controls-row">
+										<input class="col-md-4" type="text" name="name" placeholder="Name *">
+										<input class="col-md-4" type="email" name="email" placeholder="E-mail (not published) *">
+										<input class="col-md-4" type="text" name="email" placeholder="Website">
+									</div>
+									<div class="controls">
+										<textarea class="col-md-12" name="comment" rows="8" placeholder="Comment *"></textarea>
+									</div>
+									<input type="submit" class="btn btn-primary" value="Post Comment">
+								</div>
+							</form>
+						</div>
+					</div>
+					<!--/span-->
+				</div>
+				<!--/row-->
+			</div>
+			{%- include sidebar.html -%}
+		</div>
+		<!--/row-->
+	</div>
+	<!--/.container-->
+{%- include footer.html -%}
+{%- include panel.html -%}
+</body>
+</html>
