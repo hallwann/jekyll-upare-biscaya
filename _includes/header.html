@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <title>{% if page.title %}{{ page.title }} - {% endif%}{{ site.title }}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="author" content="upare.com">
 <!-- Le styles -->
 <link href="{{ site.asset }}/css/bootstrap.css" rel="stylesheet">
 <link href="{{ site.asset }}/css/style.css" rel="stylesheet">
