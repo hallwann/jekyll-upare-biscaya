@@ -53,11 +53,11 @@
 						<img src="{% if post.thumbnail[0] and local_asset == 'http' %}{{ post.thumbnail[0] }}{% elsif post.thumbnail[0] and local_asset != 'http' %}{{ site.media }}/{{ post.thumbnail[0] }}{% else %}{{ site.asset }}/img/demo/300x200.png{% endif %}">
 						<div class="roll">
 							<div class="wrapcaption">
-								<a href="{{ site.baseurl }}/{{ post.url }}"><i class="icon-link captionicons"></i></a>
+								<a href="{{ site.baseurl }}{{ post.url }}"><i class="icon-link captionicons"></i></a>
 								<a data-gal="prettyPhoto[gallery1]" href="{% if post.thumbnail[0] and local_asset == 'http' %}{{ post.thumbnail[0] }}{% elsif post.thumbnail[0] and local_asset != 'http' %}{{ site.media }}/{{ post.thumbnail[0] }}{% else %}{{ site.asset }}/img/demo/300x200.png{% endif %}"><i class="icon-zoom-in captionicons"></i></a>
 							</div>
 						</div>
-						<h1><a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a></h1>
+						<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 						<p>
 							{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt }}{% endif %}
 						</p>
