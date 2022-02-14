@@ -21,8 +21,7 @@
 title: UPARE
 email: service@upare.com
 description: "I firmly believe that diligence and erudition can make many friends. I'm coder. I can provide you with web design, in-depth model, electrification training and other services."
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "https://qall.net" # the subpath of your site, e.g. https://www.upare.com
 asset: "" # the css and images uri
 media: "https://raw.githubusercontent.com/hallwann/jekyll-upare-biscaya/gh-pages" # meida uri e.g. http://images.upare.com
 lang: en
