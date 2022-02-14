@@ -76,111 +76,111 @@ $('select#layout').change(function () {
     var defaultPattern = $.cookie("portable_cookie_defaultBg");
     
 	if (color == "0E8FAB") {
-      switcher_link.attr('href',"css/skin-bluedark.css");
+      switcher_link.attr('href',"'+asset+'/css/skin-bluedark.css");
       var atrrHref = switcher_link.attr('href');       
     }
 	
 	
       if (color == "33bee5") {
-      switcher_link.attr('href',"css/skin-blue.css");
+      switcher_link.attr('href',"'+asset+'/css/skin-blue.css");
       var atrrHref = switcher_link.attr('href');        
     }
 
 
     if (color == "44cfc8") {
-      switcher_link.attr('href',"css/skin-bluelight.css");
+      switcher_link.attr('href',"'+asset+'/css/skin-bluelight.css");
       var atrrHref = switcher_link.attr('href');        
     }
 
      if (color == "9DC500") {
-      switcher_link.attr('href',"css/skin-green.css");
+      switcher_link.attr('href',"'+asset+'/css/skin-green.css");
       var atrrHref = switcher_link.attr('href');       
     }
  
 
     if (color == "76719a") {
-      switcher_link.attr('href',"css/skin-lilac.css");
+      switcher_link.attr('href',"'+asset+'/css/skin-lilac.css");
       var atrrHref = switcher_link.attr('href');        
     }
 
 
 
     if (color == "f2a020") {
-      switcher_link.attr('href',"css/skin-orange.css");
+      switcher_link.attr('href',"'+asset+'/css/skin-orange.css");
       var atrrHref = switcher_link.attr('href');       
     }
 
      if (color == "e44884") {
-      switcher_link.attr('href',"css/skin-pink.css");
+      switcher_link.attr('href',"'+asset+'/css/skin-pink.css");
       var atrrHref = switcher_link.attr('href');
        
     }
 
 
      if (color == "e7402f") {
-      switcher_link.attr('href',"css/skin-red.css");
+      switcher_link.attr('href',"'+asset+'/css/skin-red.css");
       var atrrHref = switcher_link.attr('href');         
     }
 
     if (color == "18adb5") {
-      switcher_link.attr('href',"css/skin-teal.css");
+      switcher_link.attr('href',"'+asset+'/css/skin-teal.css");
       var atrrHref = switcher_link.attr('href');        
     }
 
      if (color == "f0b70c") {
-      switcher_link.attr('href',"css/skin-yellow.css");
+      switcher_link.attr('href',"'+asset+'/css/skin-yellow.css");
       var atrrHref = switcher_link.attr('href');        
     }
 		
 	
 	 if (color == "346b7f") {
-      switcher_link.attr('href',"css/skin-bluedark2.css");
+      switcher_link.attr('href',"'+asset+'/css/skin-bluedark2.css");
       var atrrHref = switcher_link.attr('href');        
     }
 	
 	
 	 if (color == "aecdcf") {
-      switcher_link.attr('href',"css/skin-bluelight2.css");
+      switcher_link.attr('href',"'+asset+'/css/skin-bluelight2.css");
       var atrrHref = switcher_link.attr('href');        
     }
 	
 	 if (color == "be9869") {
-      switcher_link.attr('href',"css/skin-brown.css");
+      switcher_link.attr('href',"'+asset+'/css/skin-brown.css");
       var atrrHref = switcher_link.attr('href');        
     }
 	
 	 if (color == "bf6c2f") {
-      switcher_link.attr('href',"css/skin-brown2.css");
+      switcher_link.attr('href',"'+asset+'/css/skin-brown2.css");
       var atrrHref = switcher_link.attr('href');        
     }
 	
 	 if (color == "1abc9c") {
-      switcher_link.attr('href',"css/skin-green2.css");
+      switcher_link.attr('href',"'+asset+'/css/skin-green2.css");
       var atrrHref = switcher_link.attr('href');        
     }
 	
 	 if (color == "7f8c8d") {
-      switcher_link.attr('href',"css/skin-grey.css");
+      switcher_link.attr('href',"'+asset+'/css/skin-grey.css");
       var atrrHref = switcher_link.attr('href');        
     }
 	
 	 if (color == "b4ad7f") {
-      switcher_link.attr('href',"css/skin-khaki.css");
+      switcher_link.attr('href',"'+asset+'/css/skin-khaki.css");
       var atrrHref = switcher_link.attr('href');        
     }
 	
 	 if (color == "fe6c6c") {
-      switcher_link.attr('href',"css/skin-red2.css");
+      switcher_link.attr('href',"'+asset+'/css/skin-red2.css");
       var atrrHref = switcher_link.attr('href');        
     }
 	
 	 if (color == "e66a47") {
-      switcher_link.attr('href',"css/skin-redbrown.css");
+      switcher_link.attr('href',"'+asset+'/css/skin-redbrown.css");
       var atrrHref = switcher_link.attr('href');        
     }
 	
 	 if (color == "50e9f3") {
-      switcher_link.attr('href',"css/skin-teal2.css");
+      switcher_link.attr('href',"'+asset+'/css/skin-teal2.css");
       var atrrHref = switcher_link.attr('href');        
     }
 
@@ -219,7 +219,7 @@ $('select#layout').change(function () {
 
   $('#style-switcher a.bg-box').click(function (e) {
       e.preventDefault();
-      var patternUrl = 'url(img/bg/' + $(this).attr('data-rel') + '.png)';
+      var patternUrl = 'url('+asset+'/img/bg/' + $(this).attr('data-rel') + '.png)';
       $('body').css({
           backgroundImage: patternUrl,
           backgroundRepeat: "repeat"
@@ -260,7 +260,7 @@ $('select#layout').change(function () {
   }  
 
   $('#style-switcher a.bg-box').each(function (i) {
-    var backgroundUrl = 'url(img/bg/' + $(this).attr('data-rel') + '.png)';
+    var backgroundUrl = 'url('+asset+'/img/bg/' + $(this).attr('data-rel') + '.png)';
     var a = $(this);
       a.css({
           backgroundImage: backgroundUrl,
@@ -272,7 +272,7 @@ $('select#layout').change(function () {
     
   $('#style-switcher a.bg-box').click(function (e) {
       e.preventDefault();
-      var backgroundUrl = 'url(img/bg/' + $(this).attr('data-rel') + '.png)';
+      var backgroundUrl = 'url('+asset+'/img/bg/' + $(this).attr('data-rel') + '.png)';
       $('body').css({
           backgroundImage: backgroundUrl,
           backgroundRepeat: "repeat",
@@ -283,14 +283,7 @@ $('select#layout').change(function () {
       });
     $.cookie("portable_cookie_pattern",backgroundUrl)
   });
-  
-  
-  
-  
-  
-  
-  
-  
+
   var pattern = $.cookie("portable_cookie_bgimage");
   if (pattern) {
       $('body').css({
@@ -314,7 +307,7 @@ $('select#layout').change(function () {
   }  
   
     $('#style-switcher a.bgimg-box').each(function (i) {
-    var backgroundUrl = 'url(img/bg/' + $(this).attr('data-rel') + '.jpg)';
+    var backgroundUrl = 'url('+asset+'/img/bg/' + $(this).attr('data-rel') + '.jpg)';
     var a = $(this);
       a.css({
           backgroundImage: backgroundUrl,
@@ -327,7 +320,7 @@ $('select#layout').change(function () {
     
   $('#style-switcher a.bgimg-box').click(function (e) {
       e.preventDefault();
-      var backgroundUrl = 'url(img/bg/' + $(this).attr('data-rel') + '.jpg)';
+      var backgroundUrl = 'url('+asset+'/img/bg/' + $(this).attr('data-rel') + '.jpg)';
       $('body').css({
           backgroundImage: backgroundUrl,
           backgroundRepeat: "no-repeat",
@@ -340,26 +333,7 @@ $('select#layout').change(function () {
       });
     $.cookie("portable_cookie_bgimage",backgroundUrl)
   });
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
+ 
   var background = $.cookie("portable_cookie_bgimage");
   if (background) {
       $('body').css({
