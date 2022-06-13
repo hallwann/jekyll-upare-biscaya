@@ -34,7 +34,7 @@
 					{% assign local_asset = post.thumbnail[0] | slice: 0, 4 %}
 					<div class="col-md-6">
 						<div class="boxblog">
-							<h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
+							<h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
 							<p class="small datepost">
 								 Posted on {{ post.title }} <span class="floatright" title="3 responses"><a href="#"><img src="{{ site.asset }}/img/comments.png" alt=""></a></span>
 							</p>
@@ -45,7 +45,7 @@
 								</p>
 							</div>
 							<p class="continueread readmorebox">
-								<a href="{{ post.url }}">Continue reading</a>
+								<a href="{{ site.baseurl }}{{ post.url }}">Continue reading</a>
 							</p>
 						</div>
 					</div>

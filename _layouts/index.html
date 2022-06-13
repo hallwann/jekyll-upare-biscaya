@@ -9,7 +9,7 @@
 				{% assign local_asset = post.thumbnail[0] | slice: 0, 4 %}
 				<div data-src="{% if post.thumbnail[0] and local_asset == 'http' %}{{ post.thumbnail[0] }}{% elsif post.thumbnail[0] and local_asset != 'http' %}{{ site.media }}/{{ post.thumbnail[0] }}{% else %}{{ site.asset }}/img/demo/300x200.png{% endif %}">
 					<div class="camera_caption fadeFromTop">
-						<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+						<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 						<span>
 						{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt }}{% endif %}
 						</span>
@@ -118,7 +118,7 @@
 								{% if post.description %}{{ post.description  | truncatewords: 30 }}{% else %}{{ post.excerpt  | truncatewords: 30 }}{% endif %}</a>
 							</p>
 							<p>
-								<a href="{{ post.url }}" class="btn btn-primary"><i class="icon-share-alt"></i> Get it now</a>
+								<a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-primary"><i class="icon-share-alt"></i> Get it now</a>
 							</p>
 							</li>
 							{% endfor %}
@@ -178,9 +178,9 @@
 					<span class="day">{{ post.date | date: "%d" }}</span>
 					<span class="month">{{ post.date | date: "%b" }}</span>
 				</div>
-				<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+				<h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
 				<p>
-					{% if post.description %}{{ post.description  | truncatewords: 15 }}{% else %}{{ post.excerpt  | truncatewords: 15 }}{% endif %} <a href="{{ post.url }}" class="read-more">read more <i class="icon-angle-right"></i></a>
+					{% if post.description %}{{ post.description  | truncatewords: 15 }}{% else %}{{ post.excerpt  | truncatewords: 15 }}{% endif %} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">read more <i class="icon-angle-right"></i></a>
 				</p>
 				</article>
 			</div>

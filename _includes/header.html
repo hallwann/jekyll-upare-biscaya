@@ -52,15 +52,14 @@
 					<div class="navbar-inner">
 						<ul id="nav" class="nav">
 							{% assign uri =  page.url | replace: ".html", "" | split: "/" | slice: 1 %}
-							
 							{% for menu in site.menu %}
 							{% assign murl =  menu.url | split: "/" | slice: 1 %}
-								<li class="{% if menu.sub %}dropdown{% endif %} {% if murl.first == uri.first or (menu.url == '/index' and page.url == '/') %}active selected{% endif %}"><a href="{{ menu.url }}"{% if menu.sub %} class="dropdown-toggle" data-toggle="dropdown"{% endif %}>{{ menu.name }}{% if menu.sub %}<b class="caret"></b>{% endif %}</a>
+								<li class="{% if menu.sub %}dropdown{% endif %} {% if murl.first == uri.first or (menu.url == '/index' and page.url == '/') %}active selected{% endif %}"><a href="{{ site.baseurl }}{{ menu.url }}"{% if menu.sub %} class="dropdown-toggle" data-toggle="dropdown"{% endif %}>{{ menu.name }}{% if menu.sub %}<b class="caret"></b>{% endif %}</a>
 							
 								{% if menu.sub %}
 								<ul class="dropdown-menu js-activated" style="display: none;">
 									{% for menu in menu.sub %}
-									<li><a href="{{ menu.url }}">{{ menu.name }}</a></li>
+									<li><a href="{{ site.baseurl }}{{ menu.url }}">{{ menu.name }}</a></li>
 									{% endfor %}
 								</ul>
 								{% endif %}

@@ -16,8 +16,9 @@
 				<div class="flexslider">
 					<ul class="slides">
 						{% for thumbnail in page.thumbnail %}
+                        {% assign local_asset = thumbnail | slice: 0, 4 %}
 						<li>
-						<img src="{{ thumbnail }}">
+						<img src="{% if local_asset == 'http' %}{{ thumbnail }}{% else %}{{ site.media }}/{{ thumbnail }}{% endif %}">
 						</li>
 						
 						{% endfor %}
@@ -46,13 +47,21 @@
 						<ul id="recent-projects" class="heightauto">
 							
 							{% for post in site.tags[page.tag.first] limit:10 %}
+							{% assign local_asset = post.thumbnail[0] | slice: 0, 4 %}
+							{% if local_asset == 'http' %}
+								{% assign thumbnail = post.thumbnail[0] %}
+							{% else %}
+								{% capture thumbnail %}
+								{{ site.baseurl }}/{{ post.thumbnail[0] }}
+								{% endcapture %}
+							{% endif %}
 							<li>
 							<div class="featured-projects">
 								<div class="featured-projects-image">
-									<a href="{{ post.url }}"><img src="{% if post.thumbnail[0] %}{{ post.thumbnail[0] }}{% else %}{{ site.asset }}/img/demo/300x200.png{% endif %}" class="imgOpa" width="300"></a>
+									<a href="{{ site.baseurl }}{{ post.url }}"><img src="{% if thumbnail %}{{ thumbnail }}{% else %}{{ site.asset }}/img/demo/300x200.png{% endif %}" class="imgOpa" width="300"></a>
 								</div>
 								<div class="featured-projects-content">
-									<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+									<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 									<p>
 										{% if post.description %}{{ post.description  | truncatewords: 15 }}{% else %}{{ post.excerpt  | truncatewords: 15 }}{% endif %}
 									</p>
