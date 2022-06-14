@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: UPARE
+title: QALL
 email: service@upare.com
 description: "I firmly believe that diligence and erudition can make many friends. I'm coder. I can provide you with web design, in-depth model, electrification training and other services."
 baseurl: "https://qall.net" # the subpath of your site, e.g. https://www.upare.com
