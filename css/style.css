@@ -3422,16 +3422,13 @@ overflow-y: scroll;
 }
 
 /*=============================================== *  LOGO  * ===============================================*/
-svg #upare-p1, #upare-a, #upare-hat{
-	
-	fill: #333;
-}
 
-svg #upare-hat, #upare-p1, #upare-a{
+svg #logo-hat, #logo-qall{
   -webkit-animation: float 1s infinite ease-in-out alternate;
           animation: float 1s infinite ease-in-out alternate;
 }
-svg #upare-hat {
+svg #logo-hat {
+  fill: #363636;
   -webkit-animation-delay: .2s;
           animation-delay: .2s; 
 }
