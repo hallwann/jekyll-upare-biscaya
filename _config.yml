@@ -22,7 +22,7 @@ title: QALL
 email: service@upare.com
 description: "I firmly believe that diligence and erudition can make many friends. I'm coder. I can provide you with web design, in-depth model, electrification training and other services."
 baseurl: "https://qall.net" # the subpath of your site, e.g. https://www.upare.com
-asset: "." # the css and images uri
+asset: "https://qall.net" # the css and images uri
 media: "https://raw.githubusercontent.com/hallwann/jekyll-upare-biscaya/gh-pages" # meida uri e.g. http://images.upare.com
 lang: en
 tel: "+852 6366 4860"
