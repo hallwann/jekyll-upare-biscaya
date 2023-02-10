@@ -39,7 +39,7 @@ This program is free to download and use. Please keep the copyright of the autho
 - Assist in the deployment of the project
 - Complete intellectual property protection and transfer procedures
 - Customers can customize pages and functions according to their needs
--Limited after-sales service
+- Limited after-sales service
 
 
 [Github](https://github.com/hallwann/jekyll-upare-biscaya){: .btn .btn-default}

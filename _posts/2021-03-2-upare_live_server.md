@@ -24,7 +24,7 @@ The project provides the source code and distribution software for building live
 - Assist in the deployment of the project
 - Complete intellectual property protection and transfer procedures
 - Customers can customize pages and functions according to their needs
--Limited after-sales service
+- Limited after-sales service
 
 
 [Github](https://github.com/hallwann/EasyDarwinMysql){: .btn .btn-default}
