@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 灭虫拖鞋
 thumbnail:
   - /assets/archives/6a613f12jw1ery1alnidgj20ci0fnaaj.jpg

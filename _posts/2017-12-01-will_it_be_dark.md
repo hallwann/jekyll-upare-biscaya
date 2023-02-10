@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 会不会天黑
 thumbnail:
 category:

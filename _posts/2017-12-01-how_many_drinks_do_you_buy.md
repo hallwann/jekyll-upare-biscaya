@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 买多少饮料
 thumbnail:
 category:

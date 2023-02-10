@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 点击鼠标比赛
 thumbnail:
 category:

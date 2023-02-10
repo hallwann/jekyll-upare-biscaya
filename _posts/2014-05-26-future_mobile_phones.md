@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 未来手机
 thumbnail:
   - /assets/archives/6a613f12jw1egrn1ayshej20g70dsmxj.jpg

@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 谁入选了
 thumbnail:
 category:

@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 亮的还是关的
 thumbnail:
 category:

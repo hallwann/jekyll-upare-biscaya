@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 他们的头发是什么颜色的
 thumbnail:
 category:

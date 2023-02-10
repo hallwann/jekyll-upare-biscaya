@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: ETER9人工智能让人永生
 thumbnail:
 category:

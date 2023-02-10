@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 拆伙
 thumbnail:
 category:

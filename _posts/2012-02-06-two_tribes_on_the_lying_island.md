@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 说谎岛上的两个部落
 thumbnail:
 category:

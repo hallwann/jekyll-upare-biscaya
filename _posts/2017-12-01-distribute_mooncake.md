@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 分月饼
 thumbnail:
 category:

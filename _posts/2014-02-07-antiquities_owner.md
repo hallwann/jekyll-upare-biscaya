@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 古物拥有者
 thumbnail:
 category:

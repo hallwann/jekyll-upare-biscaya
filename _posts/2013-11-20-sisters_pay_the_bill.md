@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 付账的姐妹俩
 thumbnail:
 category:

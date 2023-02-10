@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 分牛
 thumbnail:
 category:

@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 找出遗失的数字
 thumbnail:
 category:

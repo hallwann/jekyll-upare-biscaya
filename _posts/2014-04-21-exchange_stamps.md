@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 交换邮票
 thumbnail:
 category:

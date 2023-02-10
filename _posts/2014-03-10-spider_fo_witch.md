@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 女巫的蜘蛛
 thumbnail:
 category:

@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 未来人类五种猜测
 thumbnail:
   - /assets/archives/6a613f12jw1eswpf8ulr7j208c0a5aa9.jpg

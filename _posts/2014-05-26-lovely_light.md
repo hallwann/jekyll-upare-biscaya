@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 萌光线
 thumbnail:
   - /assets/archives/6a613f12jw1egrpf2tqu9g20b405049z.gif

@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 找出不同的球
 thumbnail:
 category:

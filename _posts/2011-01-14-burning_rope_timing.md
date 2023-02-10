@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 烧绳计时
 thumbnail:
   - /assets/archives/6a613f12jw1e2dkbt5gw1j.jpg

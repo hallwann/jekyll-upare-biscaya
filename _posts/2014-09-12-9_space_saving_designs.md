@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 9个省地儿又省力的设计
 thumbnail:
   - /assets/archives/6a613f12gw1ek9ii7j8a3g208c06tapa.gif

@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 牧场有多少匹马
 thumbnail:
 category:

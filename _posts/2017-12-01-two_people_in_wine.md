@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 二人分酒
 thumbnail:
 category:

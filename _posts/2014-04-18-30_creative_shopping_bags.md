@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 30个最有创意的购物袋
 thumbnail:
   - /assets/archives/6a613f12tw1efjre4yjpej20go0je3zw.jpg

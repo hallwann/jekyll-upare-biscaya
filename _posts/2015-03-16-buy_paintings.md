@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 买画
 thumbnail:
 category:

@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 巧分果冻
 thumbnail:
 category:

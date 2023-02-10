@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 驴子和苹果
 thumbnail:
 category:

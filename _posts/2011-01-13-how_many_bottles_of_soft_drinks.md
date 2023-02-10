@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 可以喝多少瓶汽水
 thumbnail:
 category:

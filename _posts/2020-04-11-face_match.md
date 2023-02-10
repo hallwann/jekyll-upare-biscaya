@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-project
 title: 人像比对系统
 thumbnail:
   - /assets/projects/face_match/images/index.jpg

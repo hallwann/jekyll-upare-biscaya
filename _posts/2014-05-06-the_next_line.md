@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 下一行数字
 thumbnail:
 category:

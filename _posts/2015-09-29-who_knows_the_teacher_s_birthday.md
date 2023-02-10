@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 谁知道老师的生日
 thumbnail:
 category:

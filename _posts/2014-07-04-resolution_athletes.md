@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 分辨运动员
 thumbnail:
 category:

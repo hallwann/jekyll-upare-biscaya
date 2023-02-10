@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-project
 title: 基于Bing api的搜索引擎
 thumbnail:
   - /assets/projects/bing_search/images/index.jpg

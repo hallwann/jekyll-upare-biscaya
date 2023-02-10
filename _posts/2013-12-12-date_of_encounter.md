@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 相遇的日期
 thumbnail:
 category:

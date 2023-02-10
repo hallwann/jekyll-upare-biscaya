@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 说话的是谁
 thumbnail:
 category:

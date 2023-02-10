@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 算出小张买了几瓶啤酒、几瓶饮料
 thumbnail:
 category:

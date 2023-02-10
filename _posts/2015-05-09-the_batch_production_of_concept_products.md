@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 可能量产的概念产品
 thumbnail:
   - /assets/archives/6a613f12jw1ery1utg1ftj20go0cl0sw.jpg

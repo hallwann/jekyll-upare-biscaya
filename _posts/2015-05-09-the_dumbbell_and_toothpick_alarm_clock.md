@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 举重闹钟 牙签闹钟
 thumbnail:
   - /assets/archives/6a613f12jw1ery16oqjkhj20cy06xq38.jpg

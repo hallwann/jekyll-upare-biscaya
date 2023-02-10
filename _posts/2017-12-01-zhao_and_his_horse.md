@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 老赵养马
 thumbnail:
 category:

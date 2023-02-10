@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 如何取3升水
 thumbnail:
   - /assets/archives/6a613f12jw1e2qj8ebag9j.jpg

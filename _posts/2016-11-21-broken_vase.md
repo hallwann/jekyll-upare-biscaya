@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 打碎的花瓶
 thumbnail:
 category:

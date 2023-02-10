@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 穿错衣服
 thumbnail:
 category:

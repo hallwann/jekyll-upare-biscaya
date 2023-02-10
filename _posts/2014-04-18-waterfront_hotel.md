@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 海滨旅馆
 thumbnail:
 category:

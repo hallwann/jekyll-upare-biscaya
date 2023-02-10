@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 布娃娃换装
 thumbnail:
 category:

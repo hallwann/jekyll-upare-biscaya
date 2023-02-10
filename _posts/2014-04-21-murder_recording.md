@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 杀人录音
 thumbnail:
 category:

@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 多用锅
 thumbnail:
   - /assets/archives/6a613f12jw1ery1he0x7vj20dw09wq3p.jpg

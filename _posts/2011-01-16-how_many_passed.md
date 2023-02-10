@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 至少有多少人及格
 thumbnail:
 category:

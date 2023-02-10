@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 性别不同
 thumbnail:
 category:

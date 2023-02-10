@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 多少个座位
 thumbnail:
 category:

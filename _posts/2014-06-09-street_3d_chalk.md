@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 街头3D粉笔画
 thumbnail:
   - /assets/archives/6a613f12jw1eh7mawp9wlj20be07ldg7.jpg

@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 太阳能盆栽
 thumbnail:
   - /assets/archives/6a613f12jw1ery1o0xpsaj20dw09at8x.jpg

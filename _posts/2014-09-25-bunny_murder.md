@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 兔子谋杀案
 thumbnail:
 category:

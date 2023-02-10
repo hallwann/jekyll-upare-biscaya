@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 日用品绘画创意
 thumbnail:
   - /assets/archives/6a613f12tw1efjtjplfwgj20go0doaag.jpg

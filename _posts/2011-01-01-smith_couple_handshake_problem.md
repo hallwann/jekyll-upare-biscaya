@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 斯密斯夫妇握手问题
 thumbnail:
   - /assets/archives/6a613f12jw1e27zjnh85jj.jpg

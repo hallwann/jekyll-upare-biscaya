@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 西瓜的数目
 thumbnail:
 category:

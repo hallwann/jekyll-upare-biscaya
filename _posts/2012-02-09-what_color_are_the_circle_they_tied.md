@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 他们每个人系的圆牌都是什么颜色的
 thumbnail:
 category:

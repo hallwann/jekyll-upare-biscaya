@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 怎样拿到第100号球
 thumbnail:
   - /assets/archives/6a613f12jw1e2dk4vu0lsj.jpg

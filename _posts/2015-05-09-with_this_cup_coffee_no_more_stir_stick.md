@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 用这杯子喝咖啡再也不用搅拌棒了
 thumbnail:
 category:

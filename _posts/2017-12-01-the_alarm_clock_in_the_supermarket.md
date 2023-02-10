@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 超市的闹钟
 thumbnail:
 category:

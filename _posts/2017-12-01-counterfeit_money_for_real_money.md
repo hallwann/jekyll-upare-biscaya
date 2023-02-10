@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 假钞换真钱
 thumbnail:
 category:

@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 四个研究生
 thumbnail:
 category:

@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 官员之死
 thumbnail:
 category:

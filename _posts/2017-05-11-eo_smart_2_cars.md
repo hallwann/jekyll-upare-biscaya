@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: EO smart 2 电动汽车
 thumbnail:
 category:

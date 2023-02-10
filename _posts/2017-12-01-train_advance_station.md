@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 火车提前进站
 thumbnail:
 category:

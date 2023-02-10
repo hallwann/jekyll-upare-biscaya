@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 在木头上的3D画
 thumbnail:
   - /assets/archives/6a613f12jw1egrpl60dphj20hs0cdmxw.jpg

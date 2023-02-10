@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 乡村庙会的15点游戏
 thumbnail:
   - /assets/archives/6a613f12jw1e63ler3odlj20hm03i74f.jpg

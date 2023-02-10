@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 剩下的是什么牌
 thumbnail:
 category:

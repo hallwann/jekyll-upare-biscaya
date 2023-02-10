@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 100美元的差额到哪里去了
 thumbnail:
   - /assets/archives/6a613f12tw1e2w00svy98j.jpg

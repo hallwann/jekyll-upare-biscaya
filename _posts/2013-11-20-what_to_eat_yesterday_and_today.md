@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 昨天吃什么，今天吃什么
 thumbnail:
 category:

@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 分开买
 thumbnail:
 category:

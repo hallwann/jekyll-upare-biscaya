@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 多米尼克·威尔科克斯的另类设计
 thumbnail:
   - /assets/archives/6a613f12gw1ek9ea1911eg20d00d044c.gif

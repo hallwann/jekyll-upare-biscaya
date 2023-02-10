@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 飞机绕地球环行问题
 thumbnail:
   - /assets/archives/6a613f12jw1e2czmvo8bhj.jpg

@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 没有出现的数字
 thumbnail:
 category:

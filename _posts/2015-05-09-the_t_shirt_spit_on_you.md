@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 喷在身上的T恤
 thumbnail:
 category:

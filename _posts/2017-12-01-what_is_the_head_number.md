@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 头数字是什么
 thumbnail:
 category:

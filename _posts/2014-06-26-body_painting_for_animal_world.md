@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 人体动物世界
 thumbnail:
   - /assets/archives/6a613f12jw1ehrhh43bb5j20go0j2aag.jpg

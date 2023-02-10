@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 这是我的第一篇博客
 thumbnail:
 category:

@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 谁是漂亮的青年
 thumbnail:
 category:

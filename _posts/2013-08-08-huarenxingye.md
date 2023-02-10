@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-project
 title: 北京华仁兴业科技有限公司
 thumbnail:
   - /assets/projects/huarenxingye/images/index.jpg

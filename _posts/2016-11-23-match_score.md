@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 比赛得分
 thumbnail:
 category:

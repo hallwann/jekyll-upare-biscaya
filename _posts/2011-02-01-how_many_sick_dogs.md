@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 村里有多少条病狗
 thumbnail:
 category:

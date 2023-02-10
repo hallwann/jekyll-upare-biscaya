@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 躯体与灵魂
 thumbnail:
   -  /assets/archives/6a613f12tw1e4rci9ys4zj209p07bdfu.jpg

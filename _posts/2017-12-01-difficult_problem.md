@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 难题
 thumbnail:
 category:

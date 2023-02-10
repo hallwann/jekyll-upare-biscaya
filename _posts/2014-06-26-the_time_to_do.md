@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 几点钟做什么
 thumbnail:
 category:

@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 大少爷做运动
 thumbnail:
 category:

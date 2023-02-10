@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 追踪后面的数字
 thumbnail:
 category:

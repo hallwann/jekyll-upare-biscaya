@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-project
 title: 人脸识别管理系统
 thumbnail:
   - /assets/projects/face_recognition/images/index.jpg

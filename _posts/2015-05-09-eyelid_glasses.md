@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 双眼皮眼镜
 thumbnail:
   - /assets/archives/6a613f12jw1ery133ni8xj20go0akmy6.jpg

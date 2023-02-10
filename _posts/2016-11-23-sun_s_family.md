@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 孙家的人
 thumbnail:
 category:

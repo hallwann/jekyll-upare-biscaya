@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 史密斯家的门牌号
 thumbnail:
 category:

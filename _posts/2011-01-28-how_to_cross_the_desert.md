@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 如何穿越沙漠
 thumbnail:
   - /assets/archives/6a613f12tw1e3hd6em2unj.jpg

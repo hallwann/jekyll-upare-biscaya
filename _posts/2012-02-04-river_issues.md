@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 过河问题
 thumbnail:
   - /assets/archives/6a613f12tw1e53nwq3yc2j20an04kdfo.jpg

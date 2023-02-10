@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 老李的儿子们是做什么的
 thumbnail:
 category:

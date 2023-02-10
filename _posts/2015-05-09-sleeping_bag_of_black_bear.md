@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 黑熊睡袋
 thumbnail:
   - /assets/archives/6a613f12jw1ery14pcbfsj20g309wjsd.jpg

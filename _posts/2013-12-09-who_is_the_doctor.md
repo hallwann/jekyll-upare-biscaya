@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 医生是谁
 thumbnail:
 category:

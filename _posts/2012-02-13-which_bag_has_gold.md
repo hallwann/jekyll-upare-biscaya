@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 哪个袋子里有金子
 thumbnail:
 category:

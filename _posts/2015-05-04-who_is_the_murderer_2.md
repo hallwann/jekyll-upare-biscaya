@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 凶手是谁
 thumbnail:
 category:

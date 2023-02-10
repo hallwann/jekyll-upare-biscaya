@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 白食的午餐
 thumbnail:
 category:

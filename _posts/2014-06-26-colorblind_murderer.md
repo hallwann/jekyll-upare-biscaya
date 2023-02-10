@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 分辨杀人凶手
 thumbnail:
 category:

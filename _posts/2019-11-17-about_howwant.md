@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 关于昊网
 thumbnail:
 category:

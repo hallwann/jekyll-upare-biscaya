@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 塞拉菲尼和他的思维
 thumbnail:
   - /assets/archives/6a613f12jw1ex5a7739xnj20hs0aq0so.jpg

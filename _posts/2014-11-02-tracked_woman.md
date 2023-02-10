@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 被跟踪的女子
 thumbnail:
 category:

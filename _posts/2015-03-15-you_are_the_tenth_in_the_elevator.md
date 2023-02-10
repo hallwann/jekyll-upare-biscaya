@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 9个人在电梯里你是第十个
 thumbnail:
 category:

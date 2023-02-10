@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 有多少钱
 thumbnail:
 category:

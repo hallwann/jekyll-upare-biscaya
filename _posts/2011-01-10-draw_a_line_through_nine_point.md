@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 用一笔划出经过九个点的4条直线
 thumbnail:
   - /assets/archives/6a613f12jw1e2d0oiri61j.jpg

@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 花花公子:快乐在你手中
 thumbnail:
   - /assets/archives/6a613f12jw1ex5axxnnmej20go0b0t8v.jpg

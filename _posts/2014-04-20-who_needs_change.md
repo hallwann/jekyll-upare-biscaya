@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 谁要找零
 thumbnail:
 category:

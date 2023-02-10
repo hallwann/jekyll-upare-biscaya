@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 森林里的下午茶
 thumbnail:
 category:

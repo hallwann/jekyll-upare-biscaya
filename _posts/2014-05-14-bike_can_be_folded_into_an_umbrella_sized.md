@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 能折叠成伞一样大小的自行车
 thumbnail:
   - /assets/archives/6a613f12jw1egdsqi6qytj20ge0awaao.jpg

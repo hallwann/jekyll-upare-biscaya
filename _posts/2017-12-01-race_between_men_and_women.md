@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 男女赛跑
 thumbnail:
 category:

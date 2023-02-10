@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 小明一家能否安全过桥
 thumbnail:
   - /assets/archives/6a613f12jw1e3he30zrkej.jpg

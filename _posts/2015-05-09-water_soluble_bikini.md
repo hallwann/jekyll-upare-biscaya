@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 入水即溶的比基尼
 thumbnail:
   - /assets/archives/6a613f12jw1ery0ok3krhj20fa08qjrk.jpg

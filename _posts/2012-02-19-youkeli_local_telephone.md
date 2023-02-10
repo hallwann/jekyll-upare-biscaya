@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 尤克利地区的电话
 thumbnail:
   - /assets/archives/6a613f12jw1e63lac2z1gj205w06kwec.jpg

@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 波霸鼠标垫
 thumbnail:
   - /assets/archives/6a613f12jw1ery0x7fnvqj20ee0arjrn.jpg

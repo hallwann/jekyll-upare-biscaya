@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 办公桌的价格
 thumbnail:
 category:

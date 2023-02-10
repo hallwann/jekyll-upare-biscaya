@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 三人关系
 thumbnail:
 category:

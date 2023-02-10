@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 蜗牛几天能爬到井口
 thumbnail:
   - /assets/archives/6a613f12jw1e2usong204j.jpg

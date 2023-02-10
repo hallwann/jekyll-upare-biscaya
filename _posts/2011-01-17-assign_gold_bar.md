@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 分金条
 thumbnail:
   - /assets/archives/6a613f12jw1e2ggv419oqj.jpg

@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 小猴最多能运回多少根香蕉
 thumbnail:
   - /assets/archives/6a613f12tw1e2ut8jywc5j.jpg

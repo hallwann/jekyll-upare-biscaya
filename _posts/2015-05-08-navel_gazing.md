@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 井底之蛙
 thumbnail:
 category:

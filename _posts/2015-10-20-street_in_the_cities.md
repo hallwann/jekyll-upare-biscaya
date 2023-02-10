@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 城市的街道
 thumbnail:
 category:

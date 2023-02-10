@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 大草原上的野兽
 thumbnail:
 category:

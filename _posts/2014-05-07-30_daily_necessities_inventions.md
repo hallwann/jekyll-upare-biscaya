@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 30个日常用品发明
 thumbnail:
   - /assets/archives/6a613f12jw1eg5q8nnwqoj20ge0awwfi.jpg

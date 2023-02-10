@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-project
 title: 基于手机的学生无线课堂互动系统
 thumbnail:
   - /assets/projects/responder/images/index.jpg

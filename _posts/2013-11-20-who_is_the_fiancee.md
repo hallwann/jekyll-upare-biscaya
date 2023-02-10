@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 谁是未婚妻
 thumbnail:
 category:

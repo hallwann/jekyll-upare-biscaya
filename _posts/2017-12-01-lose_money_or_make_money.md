@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 赔钱还是赚钱
 thumbnail:
 category:

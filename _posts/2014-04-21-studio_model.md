@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 工作室的模特
 thumbnail:
 category:

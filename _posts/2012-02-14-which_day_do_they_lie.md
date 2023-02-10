@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 他们星期几在说谎
 thumbnail:
 category:

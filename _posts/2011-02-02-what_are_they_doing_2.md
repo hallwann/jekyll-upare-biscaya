@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 他们都在做什么
 thumbnail:
   - /assets/archives/6a613f12jw1e3hdx6bbbtj.jpg

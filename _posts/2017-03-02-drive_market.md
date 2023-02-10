@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 汽车超市
 thumbnail:
 category:

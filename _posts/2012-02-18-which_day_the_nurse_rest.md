@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 每个护士星期几休息
 thumbnail:
   - /assets/archives/6a613f12jw1e63l1yxea0j20aq06nglp.jpg

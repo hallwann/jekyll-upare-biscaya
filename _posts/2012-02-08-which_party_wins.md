@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 哪个政党获胜
 thumbnail:
 category:

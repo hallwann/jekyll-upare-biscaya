@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 爆头耳机
 thumbnail:
   - /assets/archives/6a613f12jw1ery1drae8ej20go0araa6.jpg

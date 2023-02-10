@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 有多少红宝石
 thumbnail:
 category:

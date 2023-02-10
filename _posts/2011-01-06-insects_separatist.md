@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 小虫分裂问题
 thumbnail:
 category:

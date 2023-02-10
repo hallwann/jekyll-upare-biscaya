@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 书虫的速度
 thumbnail:
 category:

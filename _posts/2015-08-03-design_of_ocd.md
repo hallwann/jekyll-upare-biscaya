@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 强迫症患者的设计
 thumbnail:
   - /assets/archives/6a613f12jw1eupg6w88vqj20go0dcjrh.jpg

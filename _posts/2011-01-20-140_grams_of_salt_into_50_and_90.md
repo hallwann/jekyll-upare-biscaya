@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 如何将140克的盐分成50、90克各一份
 thumbnail:
   - /assets/archives/6a613f12jw1e2towr4d48j.jpg

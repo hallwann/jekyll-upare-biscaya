@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 在九个点上画十条线
 thumbnail:
   - /assets/archives/6a613f12jw1e2d10kk1qdj.jpg

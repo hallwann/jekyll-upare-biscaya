@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 谁是养鱼人
 thumbnail:
 category:

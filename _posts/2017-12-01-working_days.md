@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 打工的日子
 thumbnail:
 category:

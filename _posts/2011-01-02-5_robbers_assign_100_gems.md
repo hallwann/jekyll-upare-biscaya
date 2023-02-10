@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 5个强盗分100颗宝石
 thumbnail:
 category:

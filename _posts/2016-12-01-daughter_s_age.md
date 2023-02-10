@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 女儿的年龄
 thumbnail:
 category:

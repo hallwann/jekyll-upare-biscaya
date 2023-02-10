@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 吊在梁上的真相
 thumbnail:
 category:

@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-project
 title: 直播服务器
 thumbnail:
   - /assets/projects/upare_live_server/images/index.jpg
@@ -7,7 +8,7 @@ thumbnail:
 category:
   - project
 tag:
-  - golang
+  - go-lang
   - enterprise
   - opensource
 description: 本项目提供搭建直播服务的源代码和发行版本的软件，支持跨windows, linux, macos操作系统。

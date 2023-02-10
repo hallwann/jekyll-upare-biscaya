@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 便便通知器
 thumbnail:
   - /assets/archives/6a613f12jw1ery0zsvzhtj20c80yewfe.jpg

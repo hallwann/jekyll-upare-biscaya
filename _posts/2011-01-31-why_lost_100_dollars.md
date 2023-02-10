@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 怎么少了100元
 thumbnail:
 category:

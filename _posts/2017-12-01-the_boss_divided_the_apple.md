@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 老板分苹果
 thumbnail:
 category:

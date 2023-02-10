@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 这是张什么牌
 thumbnail:
 category:

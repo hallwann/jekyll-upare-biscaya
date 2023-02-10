@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-project
 title: 昊网（howwant.com）
 thumbnail:
   - /assets/projects/howwant_com/images/index.jpg

@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-project
 title: Upare jekyll 版
 thumbnail:
   - /assets/projects/jekyll_upare_biscaya/images/index.jpg

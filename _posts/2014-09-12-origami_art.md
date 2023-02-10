@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 折纸艺术
 thumbnail:
   - /assets/archives/6a613f12jw1ek9kpacv7aj20hs09i74h.jpg

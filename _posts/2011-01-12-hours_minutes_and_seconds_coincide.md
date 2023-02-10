@@ -1,5 +1,6 @@
 ---
 author: upare
+layout: post-blog
 title: 时、分和秒针重合问题
 thumbnail:
   - /assets/archives/6a613f12jw1e2d17h013lj.jpg
