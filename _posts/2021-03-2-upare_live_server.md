@@ -3,8 +3,8 @@ author: upare
 layout: post-project
 title: Cast server
 thumbnail: 
-  - /projects/upare_live_server/images/index.jpg
-  - /projects/upare_live_server/images/template.jpg
+  - /assets/projects/upare_live_server/images/index.jpg
+  - /assets/projects/upare_live_server/images/template.jpg
 category: 
   - project
 tag:

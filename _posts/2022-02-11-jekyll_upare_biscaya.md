@@ -7,7 +7,7 @@ thumbnail:
 category:
   - project
 tag: 
-  - OpenSource
+  - opensource
   - ruby
 description: This template comes from the H5 static template biscaya, which can build a business website on GitHub.Your posts can be on post & project presentations..  
 ---
