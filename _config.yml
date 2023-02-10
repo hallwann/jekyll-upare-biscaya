@@ -44,6 +44,8 @@ menu:
         url: /blog/technique
       - name: news
         url: /blog/news
+      - name: brainstorm
+        url: /blog/brainstorm
   - name: Projects
     url: /project
   - name: Services
