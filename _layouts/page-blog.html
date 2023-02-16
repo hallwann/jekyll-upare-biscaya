@@ -31,6 +31,7 @@
 				<div class="row">
 					
 					{% for post in site.categories[cat] %}
+					{% for post in paginator.posts %}
 					{% assign local_asset = post.thumbnail[0] | slice: 0, 4 %}
 					<div class="col-md-6">
 						<div class="boxblog">
@@ -49,6 +50,7 @@
 							</p>
 						</div>
 					</div>
+					{% endfor %}
 					{% endfor %}
 				</div>
 				<!--/row-->
