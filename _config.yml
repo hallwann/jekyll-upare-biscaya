@@ -75,3 +75,5 @@ menu:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+paginate: 6
+paginate_path: "page:num"
